@@ -1,0 +1,64 @@
+#Title{
+	-fx-effect: dropshadow(gaussian, rgba(128, 128, 128, 44), 10, 0.5, 0.0, 0.0);
+}
+
+#ButtonGive{
+	-fx-background-image:url("../../src/thousandhands/donate128.png");
+	-fx-border-color:black;
+	-fx-border-width:4px;
+}
+
+#ButtonNeed{
+	-fx-background-image:url("../../src/thousandhands/need128.png");
+	-fx-border-color:black;
+	-fx-border-width:4px;
+}
+
+#ButtonInventory{
+	-fx-background-image:url("../../src/thousandhands/inventory128.png");
+	-fx-border-color:black;
+	-fx-border-width:4px;
+}
+
+#ButtonName{
+	-fx-background-image:url("../../src/thousandhands/name64.png");
+	-fx-border-color:black;
+	-fx-border-width:2px;
+}
+
+#ButtonItem{
+	-fx-background-image:url("../../src/thousandhands/item64.png");
+	-fx-border-color:black;
+	-fx-border-width:2px;
+}
+
+#ButtonQty{
+	-fx-background-image:url("../../src/thousandhands/qty64.png");
+	-fx-border-color:black;
+	-fx-border-width:2px;
+}
+
+#ButtonAdd{
+	-fx-background-image:url("../../src/thousandhands/done128.png");
+	-fx-background-radius:64px;
+	-fx-border-color:black;
+	-fx-border-radius:64px;
+	-fx-border-width:4px;
+}
+
+#ButtonHome{
+	-fx-background-image:url("../../src/thousandhands/home64.png");
+	-fx-border-color:black;
+	-fx-border-width:2px;
+}
+
+#ButtonSearch{
+	-fx-background-image:url("../../src/thousandhands/search32.png");
+	-fx-border-color:black;
+	-fx-border-width:1px;
+}
+
+.root{
+	-fx-background-color:#fffaf0;
+	-fx-background-image:url("../../src/thousandhands/bg.png");
+}

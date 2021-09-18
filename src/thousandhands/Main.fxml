@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="Title" alignment="CENTER" layoutX="190.0" layoutY="40.0" text="A Thousand Hands" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="ButtonGive" layoutX="48.0" layoutY="176.0" mnemonicParsing="false" onAction="#replaceSceneContentDonate" prefHeight="128.0" prefWidth="128.0" text="">
+         <tooltip>
+            <Tooltip text="Donate" />
+         </tooltip></Button>
+      <Button fx:id="ButtonNeed" layoutX="256.0" layoutY="176.0" mnemonicParsing="false" onAction="#replaceSceneContentNeed" prefHeight="128.0" prefWidth="128.0" text="">
+         <tooltip>
+            <Tooltip text="Retrieve" />
+         </tooltip></Button>
+      <Button fx:id="ButtonInventory" layoutX="464.0" layoutY="176.0" mnemonicParsing="false" onAction="#replaceSceneContentInventory" prefHeight="128.0" prefWidth="128.0" text="">
+         <tooltip>
+            <Tooltip text="View inventory" />
+         </tooltip></Button>
+   </children>
+</AnchorPane>

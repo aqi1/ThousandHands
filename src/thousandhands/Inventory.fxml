@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="48.0" layoutY="40.0" text="Inventory" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <ListView fx:id="ListViewInventory" layoutX="48.0" layoutY="128.0" maxHeight="224.0" maxWidth="368.0" onMouseClicked="#populateSearch" prefHeight="224.0" prefWidth="368.0" />
+      <Button fx:id="ButtonHome" layoutX="528.0" layoutY="392.0" mnemonicParsing="false" onAction="#replaceSceneContentHome" prefHeight="64.0" prefWidth="64.0" text="" />
+      <TextField fx:id="TextSearch" layoutX="48.0" layoutY="376.0" prefHeight="32.0" prefWidth="200.0" />
+      <Button fx:id="ButtonSearch" layoutX="256.0" layoutY="376.0" mnemonicParsing="false" onAction="#inventorySearch" prefHeight="32.0" prefWidth="32.0" text="Button" />
+   </children>
+</AnchorPane>
